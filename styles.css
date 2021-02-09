@@ -132,6 +132,7 @@ header{
     border: solid 1px white;
     border-radius: 0.25rem;
     margin-bottom: 2rem;
+    
 
     color: var(--color-blue);
 }
@@ -147,7 +148,7 @@ header{
 }
 
 .card p {
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 3rem;
     color: var(--pink);
     margin-top: 1rem;
