@@ -1,7 +1,7 @@
 /* Global =====================*/
 :root{
-    --color-blue: #0B0B3B;
-    --lblue: #0000ff;
+    --color-blue: #091921;
+    --lblue: #0B0B3B;
     --pink: #FF1744;
 }
 
@@ -127,7 +127,7 @@ header{
 /* Cards =====================*/
 .card{
     background: white;
-    padding: 1.5rem 2rem;
+    padding: 1.5rem 1.5rem;
 
     border: solid 1px white;
     border-radius: 0.25rem;
@@ -148,10 +148,10 @@ header{
 }
 
 .card p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     line-height: 3rem;
     color: var(--pink);
-    margin-top: 1rem;
+    margin-top: 1.5rem;
 }
 
 .card.total{
@@ -311,6 +311,6 @@ footer{
     #balance{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        gap: 2rem;
+        gap: 1rem;
     }
 }
