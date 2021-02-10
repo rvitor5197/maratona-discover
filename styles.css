@@ -1,8 +1,9 @@
 /* Global =====================*/
 :root{
-    --color-blue: #091921;
-    --lblue: #0B0B3B;
+    --color-blue: #0B0B3B;
+    --lblue: #0000ff;
     --pink: #FF1744;
+    --dblue: #091921;
 }
 
 * {
@@ -19,6 +20,101 @@ body {
     background: #f0f2f5;
     font-family:'Poppins', sans-serif;
 }
+
+
+/*
+tentando add darkmode
+*/
+
+body.dark{
+    background-color: var(--dblue);
+}
+
+body.dark header{
+    background-color: var(--dblue);
+}
+body.dark footer{
+    color: var(--pink);
+}
+body.dark .button.new{
+    color: var(--pink);
+}
+body.dark h3{
+    color: var(--dblue);
+}
+body.dark .card{
+    background: #fbf2e0;
+    opacity: 0.9;
+}
+body.dark .card.total {
+    background-color: var(--dblue);    
+}
+body.dark .card.total h3 {
+   color: var(--pink);
+}
+body.dark .card.total p{
+    color: var(--pink);
+    
+}
+body.dark .card img{
+    display: none;
+}
+body.dark th{
+    background-color: #fbf2e0;
+}
+body.dark td{
+    background-color: #fbf2e0;
+    
+}
+
+#check{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkbox{
+    opacity: 0;
+    position: absolute;
+}
+
+
+
+.label {
+    width: 50px;
+    height: 26px;
+    background-color: var(--color-blue);
+    border: var(--pink) solid 1px;
+    display: flex;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    position: relative;
+}
+
+.ball{
+    width: 20px;
+    height: 20px;
+    background-color: #FF1744;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .label{
+    background-color: var(--dblue);
+}
+
+.checkbox:checked + .label .ball{
+    transform: translateX(24px);
+}
+
+
+
+/*marcar fim*/
 
 .sr-only{
     position: absolute;

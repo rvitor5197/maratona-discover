@@ -17,7 +17,18 @@ const Modal = {
     }
 }
 
+/*
+add darkmode
+*/
+const checkbox = document.getElementById("checkbox");
 
+checkbox.addEventListener('change',
+ () => {
+     //change theme 
+     document.body.classList.toggle('dark');
+ })
+
+/* marcar fim */
 /*
     Eu preciso somar as entradas
     depois somar as saidas e 
