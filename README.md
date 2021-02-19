@@ -1,4 +1,4 @@
-# Dev.Finance$ - maratona_discover
+# Maratona Discover
 
 Controle de lançamento de despesas e receitas
 =================
