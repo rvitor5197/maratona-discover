@@ -235,7 +235,7 @@ header{
 
 .card h3{
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 1.5rem;
 
     display: flex;
     align-items: center;
@@ -244,8 +244,8 @@ header{
 }
 
 .card p {
-    font-size: 1.3rem;
-    line-height: 3rem;
+    font-size: 1.8rem;
+    line-height: 3.5rem;
     color: var(--pink);
     margin-top: 1.5rem;
 }
